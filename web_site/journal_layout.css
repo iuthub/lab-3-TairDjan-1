@@ -1,0 +1,46 @@
+body {
+    background-image: url(https://image.freepik.com/free-vector/beautiful-background-decorated-with-colourful-mandala-frame_1159-21184.jpg);
+}
+
+.body {
+    border: 10px white solid;
+    background-color: white;
+    margin: 0% 10% 0% 10%;
+    overflow: hidden;
+}
+
+div.body div.first {
+    padding: 5px;
+    margin-top: 0px;
+    text-align: right;
+    background-color: #A8F0F0;
+    width: auto;
+}
+
+div.first > h2 {
+    font-size: 14pt;
+}
+
+div.body div {
+    border: 4px#C2E9E9 solid;
+    background-color: #E8FBFB;
+    padding: 5px;
+    margin-top: 10px;
+    width: 70%;
+}
+
+div span {
+    border-bottom: 2px blue dashed;
+}
+
+div.body div {
+    overflow: hidden;
+}
+
+div.body div.friends {
+    width: 25%;
+    float: left;
+}
+div.body div.float {
+    float: right;
+}
